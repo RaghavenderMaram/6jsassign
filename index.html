@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DIGITAL CLOCK</title>
+        <link rel="stylesheet" href="style.css">
+      <style>
+        .clock{
+            background-color: aqua;
+            width: 150px;
+            text-align: center;
+            padding:10%;
+
+        }
+        #hour{
+            display: inline;
+
+        }
+        #minutes{
+            display: inline;
+
+        }
+        #seconds{
+            display: inline;
+
+        }
+      </style>
+    </head>
+    <body>
+        <h2>Digital clock</h2>
+        <div class="clock">
+            <div>
+                <span id="hour">00</span>
+                <span class="text">Hours</span>
+            </div>
+            <div>
+                <span id="minutes">00</span>
+                <span class="text">Minutes</span>
+            </div>
+            <div>
+                <span id="seconds">00</span>
+                <span class="text">Seconds</span>
+            </div>
+        <div>
+        <span id="ampm">Am</span>
+        </div>
+        </div>
+    <script src="app.js"></script>
+    </body>
+</html>
